@@ -1,11 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
- 
+  font-family: "din-2014-rounded-variable",sans-serif; font-variation-settings: 'wght' 600;;
 }
 /*  start Nav Bar v */
 .nav-bar li {
@@ -220,7 +216,7 @@ section {
     font-weight: 100;
     font-family: "Source Sans 3", sans-serif;
  }
- .bb{
+ .info-ditalis{
 position: relative;
 right: 270px;
  }
@@ -258,6 +254,7 @@ right: 270px;
  }
  /*  End most visited section */
 
-
-
+ .add-hover:hover{
+    background: #000000 !important;
+ }
   
