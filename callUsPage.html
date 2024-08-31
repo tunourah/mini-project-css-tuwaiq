@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رقيم| اتصل بنا</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+   *{
+            margin: 0;
+            padding: 0;
+            font-family: "DIN-MEDIUM", sans-serif;
+            direction: rtl;
+           
+    }
+
+    li{
+        list-style-type:none ; 
+        padding: 1em 0em 0em 1em;
+
+    }
+    
+    ul{
+        display: flex; 
+        align-items: center; 
+        margin-left: 10vw;
+        margin-right: 10vw;
+        
+       
+    } 
+
+    .left {
+    margin-right: auto;
+    display: flex; 
+    text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.btnAdd{
+    
+    padding: 10px;
+    background-image: linear-gradient(-40deg, #7AADF7 0%, #3C7FE7 100%);
+    border-radius: 1.5rem;
+  color: antiquewhite;
+}
+
+.grad1{
+  position: relative;
+  text-align: left;
+  height: 200px;
+  background-color: #4F81DE; 
+  background-image: linear-gradient(to bottom left, #4F81DE , #94F2A8); 
+  color: antiquewhite;
+  
+}
+
+
+.about{
+    position: absolute;
+    top: 50%;  
+   left: 50%;
+  transform: translate(-50%, -50%); 
+
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  border-radius: 5px;
+  background-color: white;
+   font-weight: bold; 
+ padding: 2rem;
+ margin-left: auto;
+ margin-right: auto;
+margin-bottom: 5rem;
+ margin-top: -3rem;
+ position: relative;
+
+}
+
+
+p{
+    padding: 1rem;
+}
+
+footer{
+    background-color: #393939;
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+    direction: rtl;
+  
+
+}
+
+.lower-footer{
+    /* position: fixed; */
+   width: 100%;
+
+text-align: center;
+background-color: #1E1E1E;
+color: antiquewhite;
+
+}
+
+.inputs{
+    width: 30rem;
+    height: 2rem;
+    border: 1px solid #E6E6E6;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.inputsDiv{
+padding: 1rem;
+text-align: center;
+}
+
+
+
+    </style>
+</head>
+<body>
+<div>
+      <nav>
+        <ul>
+            <li><a href="#home"><img src="logo.png" alt="raqeem logo" ></a></li>
+            <li><a href="#news"><img src="nav-1.svg" alt="" style="padding-left: 5px;">الأكثر زيارة</a></li>
+            <li><a href="#contact"> <img src="heart.svg" alt="" style="padding-left: 5px;">الافضل تقيمًا</a></li>
+            <li><a href="#about"><img src="nav-3.svg" alt="" style="padding-left: 5px;">التصنيفات</a></li>
+            <li><a href="#about"><img src="nav-4.svg" alt=""style="padding-left: 5px;" >حول</a></li>
+            <li><a href="#about"><img src="nav-5.svg" alt="" style="padding-left: 5px;">اتصل بنا</a></li>
+
+            <div class="left">
+            <li><a href="#about" class="btnAdd" >+ اضف خدمة</a></li>
+            <li><a href="#about"><img src="nav-6.svg" alt="" style="padding-left: 5px;">دخول</a></li>
+            </div>
+          </ul>
+    </nav>    
+
+      <div class="grad1">
+        <img src="CY.png" alt="overlay logo">
+
+        <div class="about">
+          <h2 >اتصل بنا</h2> 
+          <hr style=" color: antiquewhite;">   
+        </div>
+      </div>
+
+ <div  class="card">
+      <form class="input">
+       
+
+        <div class="inputsDiv">
+            <img src="contact-icon.svg" alt="">
+         </div> 
+
+         <div class="inputsDiv">
+            <input class="inputs" type="text" placeholder="ادخل اسمك الثلاثي الكامل" required> 
+         </div> 
+         <div class="inputsDiv">
+            <input class="inputs" type="text" placeholder="عنوان بريدك الألكتروني" required> 
+         </div> 
+         <div class="inputsDiv">
+            <input class="inputs" type="text" placeholder="ضع عنوان رئيسي للرسالة" required> 
+         </div> 
+         <div class="inputsDiv" >
+            <input class="inputs" type="text" style="height: 10rem; text-align: top;" placeholder="نص الرسالة" required> 
+         </div> 
+         <div class="inputsDiv">
+            <input type="submit" class="inputs" style=" color: antiquewhite; background-image: linear-gradient(-40deg, #7AADF7 0%, #3C7FE7 100%);"
+             value="ارسال رسالة">
+           
+         </div> 
+
+      </form>
+
+ </div>
+
+
+<footer>
+    <div style="padding: 2rem;">
+        <ul>
+            <li><a href="#home"><img src="logo.png" alt="raqeem logo" ></li>
+              <div class="left">
+                <li> <h4 style="color: antiquewhite;">تواصل معنا</h4> 
+                    <br>
+                    <a href="https://twitter.com/abdulaziz_hmadi/"><img src="tlogo.png" alt="" width="30rem" height="30rem" ></a>
+                    <br>
+                    <br>
+                    <a href="#about" class="btnAdd" >اتصل بنا</a>
+                   </li>
+              </div>  
+        </ul>
+        <br>
+    </div>
+    <div class="lower-footer">
+        <p>جميع الحقوق محفوظة لمنصة رقيم © 2024</p>
+    </div>
+    
+</footer>
+ </div>
+</body>
+</html>
