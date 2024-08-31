@@ -113,6 +113,9 @@
   left: 0;
 }
 /*  end title section */
+section {
+    height: 120vh;
+}
 
 /*  start ctegories section */
 .ctegories {
@@ -254,4 +257,7 @@ right: 270px;
     background-image: linear-gradient(-40deg, #96bbf3 0%, #b0cbf4 100%);
  }
  /*  End most visited section */
+
+
+
   
